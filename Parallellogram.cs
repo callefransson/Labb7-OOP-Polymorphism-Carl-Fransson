@@ -9,16 +9,16 @@ namespace Labb7_OOP_Polymorphism
     public class Parallellogram : Geometri
     {
         // egenskaperna för klassen
-        public double _lenght { get; set; }
-        public double _height { get; set; }
+        public double Lenght { get; set; }
+        public double Height { get; set; }
         public Parallellogram()
         { // sätter värdet på egenskaperna i konstruktorn
-            _lenght = 4.4;
-            _height = 6.8;
+            Lenght = 4.4;
+            Height = 6.8;
         }
-        public override double Area() // Metoden som retunerar arean
+        public override double Area() // Metoden som räknar ut och retunerar arean
         {
-            return _lenght * _height;
+            return Lenght * Height;
         }
     }
 }

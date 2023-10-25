@@ -17,7 +17,7 @@ namespace Labb7_OOP_Polymorphism
             _lenght = 4;
             _height = 8;
         }
-        public override double Area() // Metoden som retunerar arean
+        public override double Area() // Metoden som räknar ut och retunerar arean
         {
             return _lenght * _height;
         }

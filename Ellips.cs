@@ -9,16 +9,16 @@ namespace Labb7_OOP_Polymorphism
     public class Ellips : Geometri
     {
         //egenskaperna för klassen
-        public int _yAxis { get; set; }
-        public int _xAxis { get; set; }
+        public int YAxis { get; set; }
+        public int XAxis { get; set; }
         public Ellips()
         { // sätter värdet på egenskaperna i konstruktorn
-            _yAxis = 8;
-            _xAxis = 11;
+            YAxis = 8;
+            XAxis = 11;
         }
-        public override double Area() // Metoden som retunerar arean
+        public override double Area() // Metoden som räknar ut och retunerar arean
         {
-            return Math.PI * _xAxis * _yAxis;
+            return Math.PI * XAxis * YAxis;
         }
     }
 }

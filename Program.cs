@@ -16,7 +16,6 @@ namespace Labb7_OOP_Polymorphism
             Console.WriteLine("Aran på cirkel är: {0}", circle.Area());
             Console.WriteLine("Aran på parallellogram är: {0}", parallellogram.Area());
             Console.WriteLine("Aran på ellips är: {0}", ellips.Area());
-            Console.ReadKey();
         }
     }
 }
